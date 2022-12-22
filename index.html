@@ -1,160 +1,222 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Casa Fina</title>
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Casa Fina</title>
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
 
-<script src="./assets/js/jquery.js"></script>
-<script src="./bootstrap/js/bootstrap.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
 
 
-<header></header>
+    <header></header>
 
 
-<body>
-    <!-- About Us Panels -->
-    <section class="container">
-        <h2>Sobre Nós</h2>
-        <img src="./assets/img/empresa.jpg" class="img-responsive">
+    <body>
+        <!-- About Us Panels -->
+        <section class="container">
+            <h2>Sobre Nós</h2>
+            <img src="./assets/img/empresa.jpg" class="img-responsive">
 
-        <div class="panel-group" id="about-us-panel">
-            <!-- 1° panel -->
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#1p" data-parent="#about-us-panel">
-                        Desde 1935</h3>
+            <div class="panel-group" id="about-us-panel">
+                <!-- 1° panel -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#1p" data-parent="#about-us-panel">
+                            Desde 1935</h3>
+                    </div>
+                    <div id="1p" class="collapse in">
+                        <div class="panel-body">
+                            <p>Desde 1935, a Casa Fina é uma empresa familiar que atua no mercado de móveis e decoração. Com
+                                uma equipe de profissionais altamente qualificados, a Casa Fina oferece aos seus clientes
+                                móveis de qualidade, com design moderno e sofisticado, além de uma variedade de produtos
+                                para decoração de ambientes.</p>
+                        </div>
+                    </div>
                 </div>
-                <div id="1p" class="collapse in">
-                    <div class="panel-body">
-                        <p>Desde 1935, a Casa Fina é uma empresa familiar que atua no mercado de móveis e decoração. Com
-                            uma equipe de profissionais altamente qualificados, a Casa Fina oferece aos seus clientes
-                            móveis de qualidade, com design moderno e sofisticado, além de uma variedade de produtos
-                            para decoração de ambientes.</p>
+
+                <!-- 2° panel -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#2p" data-parent="#about-us-panel">
+                            Preços acessíveis</h3>
+                    </div>
+                    <div id="2p" class="collapse">
+                        <div class="panel-body">
+                            <p>Com uma política de preços acessíveis, a Casa Fina oferece aos seus clientes móveis de
+                                qualidade, com design moderno e sofisticado, além de uma variedade de produtos para
+                                decoração de ambientes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3° panel -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#3p" data-parent="#about-us-panel">
+                            Alegria em colaborar para um mundo mais bonito</h3>
+                    </div>
+                    <div id="3p" class="collapse">
+                        <div class="panel-body">
+                            <p>Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <!-- 2° panel -->
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#2p" data-parent="#about-us-panel">
-                        Preços acessíveis</h3>
+        <!-- Jumbotron Awards -->
+        <div class="jumbotron">
+            <div class="container">
+                <h3>Mais de 300 prêmios em design e em conforto</h3>
+                <p>Mais de 5 milhões de clientes satisfeitos em todo o mundo.</p>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <section class="container">
+            <h2>Nossos Projetos</h2>
+            
+            <!-- Castle House -->
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <figure class="thumbnail">
+                        <img src="./assets/img/projetos/casa-castelo.png" alt="Castle house photo">
+                        <figcaption class="caption">
+                            <h3>Casa Castelo</h3>
+                            <p>Projeto de uma casa de campo com estilo medieval.</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Learn</a></p>
+                        </figcaption>
+                    </figure>
                 </div>
-                <div id="2p" class="collapse">
-                    <div class="panel-body">
-                        <p>Com uma política de preços acessíveis, a Casa Fina oferece aos seus clientes móveis de
-                            qualidade, com design moderno e sofisticado, além de uma variedade de produtos para
-                            decoração de ambientes.</p>
+            </div>
+            </div>
+
+            <!-- Lake House -->
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <figure class="thumbnail">
+                        <img src="./assets/img/projetos/casa-lago.png" alt="Lake house photo">
+                        <figcaption class="caption">
+                            <h3>Casa Lago</h3>
+                            <p>A Casa do Lago foi lar de inúmeras pessoas que conheciam o presidente da época.</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Learn</a></p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            </div>
+            
+            <!-- Marapira Market -->
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <figure class="thumbnail">
+                        <img src="./assets/img/projetos/mercado-marapira.png" alt="Marapira market photo">
+                        <figcaption class="caption">
+                            <h3>Mercado Marapira</h3>
+                            <p>O mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.
+                            <p><a href="#" class="btn btn-primary" role="button">Learn</a></p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            </div>
+
+            <!-- Dionísio's Palace -->
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <figure class="thumbnail">
+                        <img src="./assets/img/projetos/palacio-dionisio.png" alt="Dionísio's Palace photo">
+                        <figcaption class="caption">
+                            <h3>Palácio Dionísio</h3>
+                            <p>O palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo do
+                                mundo.</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Learn</a></p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            </div>
+
+            <!-- Ludi's Residencial -->
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <figure class="thumbnail">
+                        <img src="./assets/img/projetos/residencia-ludi.png" alt="Ludi's Residencial photo">
+                        <figcaption class="caption">
+                            <h3>Residência Ludi</h3>
+                            <p>A residência Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing.
+                            </p>
+                            <p><a href="#" class="btn btn-primary" role="button">Learn</a></p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Statements -->
+        <section>
+            <h2 class="container clients-statement">Depoimentos de Clientes</h2>
+            <!-- Clients Statements Carousel -->
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+            
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="./assets/img/depoimentos/depoimento0.png" alt="Clients photo" class="img-responsive">
+                        <div class="carousel-caption">
+                            <h3>Yuri Padilha</h3>
+                            <p>Gostei muito e rápido o serviço.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="./assets/img/depoimentos/depoimento1.png" alt="Clients photo" class="img-responsive">
+                        <div class="carousel-caption">
+                            <h3>Fernando Stafaneni</h3>
+                            <p>Excelente trabalho.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="./assets/img/depoimentos/depoimento2.png" alt="Clients photo" class="img-responsive">
+                        <div class="carousel-caption">
+                            <h3>Caio Sauzas</h3>
+                            <p>Gostei, competência em primeiro lugar.</p>
+                        </div>
                     </div>
                 </div>
+            
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
             </div>
-
-            <!-- 3° panel -->
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#3p" data-parent="#about-us-panel">
-                        Alegria em colaborar para um mundo mais bonito</h3>
-                </div>
-                <div id="3p" class="collapse">
-                    <div class="panel-body">
-                        <p>Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects -->
-    <section class="container">
-        <h2>Nossos Projetos</h2>
-        
-        <!-- Castle House -->
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <figure class="thumbnail">
-                    <img src="./assets/img/projetos/casa-castelo.png" alt="Castle house photo">
-                    <figcaption class="caption">
-                        <h3>Casa Castelo</h3>
-                        <p>Projeto de uma casa de campo com estilo medieval.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Learn</a></p>
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
-        </div>
-
-        <!-- Lake House -->
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <figure class="thumbnail">
-                    <img src="./assets/img/projetos/casa-lago.png" alt="Lake house photo">
-                    <figcaption class="caption">
-                        <h3>Casa Lago</h3>
-                        <p>A Casa do Lago foi lar de inúmeras pessoas que conheciam o presidente da época.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Learn</a></p>
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
-        </div>
-        
-        <!-- Marapira Market -->
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <figure class="thumbnail">
-                    <img src="./assets/img/projetos/mercado-marapira.png" alt="Marapira market photo">
-                    <figcaption class="caption">
-                        <h3>Mercado Marapira</h3>
-                        <p>O mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.
-                        <p><a href="#" class="btn btn-primary" role="button">Learn</a></p>
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
-        </div>
-
-        <!-- Dionísio's Palace -->
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <figure class="thumbnail">
-                    <img src="./assets/img/projetos/palacio-dionisio.png" alt="Dionísio's Palace photo">
-                    <figcaption class="caption">
-                        <h3>Palácio Dionísio</h3>
-                        <p>O palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo do
-                            mundo.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Learn</a></p>
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
-        </div>
-
-        <!-- Ludi's Residencial -->
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <figure class="thumbnail">
-                    <img src="./assets/img/projetos/residencia-ludi.png" alt="Ludi's Residencial photo">
-                    <figcaption class="caption">
-                        <h3>Residência Ludi</h3>
-                        <p>A residência Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing.
-                        </p>
-                        <p><a href="#" class="btn btn-primary" role="button">Learn</a></p>
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
-    </section>
+        </section>
 
 
-</body>
 
 
-<footer></footer>
+    
+
+    </body>
+    <footer></footer>
 
 </html>
