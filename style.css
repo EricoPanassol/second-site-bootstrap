@@ -1,3 +1,34 @@
+header {
+    background-image: url(./assets/img/castelo.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100%;
+    position: relative;
+}
+
+header h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.casaFina-banner {
+    color: #FEFEFE;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+
+html, body {
+    height: 100%;
+}
+
 #about-us-panel {
     margin: 20px 0;
 }
@@ -12,7 +43,41 @@
     padding-top: 25px;
     padding-bottom: 25px;
     color: #FEFEFE;
-    /* text-align: center; */
     font-size: 24px;
 }
 
+.sol-type, .group-radio {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.group-radio .radio {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333333;
+    color: #FEFEFE;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+footer address:last-child {
+    margin-bottom: 0;
+}
+
+@media(min-width: 768px) {
+    .two-columns {
+        width: 50%;
+        float: left;
+    }
+
+    #about-us-panel {
+        margin: 0;
+    }
+
+    .jumb-banner {
+        margin-top: 20px;
+    }
+}
